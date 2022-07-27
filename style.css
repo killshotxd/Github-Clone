@@ -20,6 +20,15 @@ body {
   align-items: center;
   font-weight: bold;
   font-size: 0.8rem;
+  justify-content: space-between;
+}
+.avatar {
+  margin-right: 1rem;
+}
+
+.avatar i {
+  color: white;
+  font-size: 1rem;
 }
 
 .nav input {
