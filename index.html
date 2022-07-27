@@ -6,8 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Github Clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!-- HEADER SECTION -->
+
+    <header>
+      <div class="nav">
+        <ul>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <input type="text" placeholder="Search or jump to.." />
+          <a href="#">Pull requests</a>
+          <a href="#">Issues</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Explore</a>
+        </ul>
+        <div class="avatar">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-plus"><i class="fa-solid fa-caret-down"></i></i>
+          <!-- <img src="" alt="user" /> -->
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+
+    <!-- sidebar section -->
+    <div class="sidebar">
+      <div class="d-flex">
+        <h4 style="color: white;">Recent Repositories 
+        <a href="">New</a>
+        </h4>
+      </div>
+      <input type="text" name="search" id="search" placeholder="Find a repository...">
+
+
+<!-- list -->
+
+
+      <ul class="repo-list">
+        <li><img src="#" alt="#"><a href="#">sadabjr/javascript30-Projects</a></li>
+        <li><img src="" alt="#"><a href="#">sadabjr/sadabjr</a></li>
+        <li><img src="#" alt="#"><a href="#">sadabjr/CFC--assing-pyboot</a></li>
+        <li><img src="#" alt="#"><a href="#">sadabjr/CFC--assing-pyboot</a></li>
+        <li><img src="#" alt="#"><a href="#">sadabjr/CFC--assing-pyboot</a></li>
+        <li><img src="#" alt="#"><a href="#">sadabjr/CFC--assing-pyboot</a></li>
+      </ul>
+
+      <a href="#" class="show-more">Show more</a>
+
+      <div class="line"></div>
+
+      <div class="recent-act">
+        <h4>Recent activity</h4>
+        <p>When you take actions across GitHub, we’ll provide links to that activity here.</p>
+      </div>
+
+    </div>
     <script src="/script.js"></script>
   </body>
 </html>
