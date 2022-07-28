@@ -60,8 +60,8 @@ body {
 /* sidebar section */
 
 .sidebar {
-  height: 700px;
-  width: 265px;
+  height: 100vh;
+  width: 30vw;
   position: relative;
   z-index: 1;
   top: 5px;
@@ -74,6 +74,7 @@ body {
 
 .sidebar__container__item {
   margin-left: 1rem;
+  padding: 1.5rem;
 }
 
 .d-flex {
@@ -90,6 +91,10 @@ body {
   text-decoration: none;
   color: rgb(192, 182, 182);
   margin-left: 16px;
+}
+
+.d-flex a:hover {
+  color: white;
 }
 
 .sidebar input {
