@@ -254,7 +254,7 @@ p {
   display: flex;
 }
 
-.flex__lang__date .dot {
+.flex__lang__date .dot{
   height: 15px;
   width: 15px;
   background-color: orange;
@@ -266,4 +266,81 @@ p {
   color: white;
   background: white;
   height: 1.5rem;
+}
+
+/* right side news section */
+.news-section {
+  color: white;
+  height: 100vh;
+  width: 20vw;
+  background: rgb(1, 4, 9);
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  padding-right: 2vw;
+}
+
+.news-section h4,
+.explore-repo h4{
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.letest-changes ul li a {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  font-size: 1.8vh;
+}
+
+.letest-changes ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.news-section p,
+.view-changelog {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-size: small;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+/* -- Explore repositories */
+.card h5:hover{
+  color: blue;
+  cursor: pointer;
+
+}
+
+
+.explore-repo .card .dot{
+  height: 10px;
+  width: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.explore-repo .card .js-dot{
+  background-color: rgb(255, 255, 115);
+}
+
+.explore-repo .card .ts-dot{
+  background-color: rgb(148, 148, 255);
+}
+
+
+.line3 {
+  height: 1px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 255px;
 }
