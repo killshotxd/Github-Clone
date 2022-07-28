@@ -161,3 +161,109 @@ body {
   background: white;
   height: 1.5rem;
 }
+
+/* For Displaying three coloumns sidebar, activity and then github news */
+
+.main__activity__container {
+  height: 100vh;
+  width: 47vw;
+  background: rgb(1, 4, 9);
+}
+
+.three__col {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Activity container */
+
+.follow__foru {
+  display: flex;
+  margin-left: 1rem;
+  text-decoration: none;
+  margin-top: 3rem;
+}
+
+button {
+  background: rgb(1, 4, 9);
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 10px;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background: rgba(133, 133, 133, 0.305);
+}
+
+.line2 {
+  height: 1px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 1rem;
+  width: 30rem;
+  margin-left: 1rem;
+}
+
+.single__profile__container {
+  margin-top: 1rem;
+  height: 14rem;
+  margin-left: 2rem;
+}
+
+.center__activity__container {
+  color: white;
+}
+
+.name__activity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.info__container {
+  display: grid;
+  background: rgb(13, 17, 23);
+  width: 33rem;
+  border-radius: 1rem;
+  height: 17vh;
+  border: 1px solid rgb(86, 86, 86);
+  gap: 0.5rem;
+}
+
+.info__container h3,
+p {
+  margin-left: 0.75rem;
+  font-size: 1rem;
+}
+
+.info__container p {
+  color: rgb(160, 160, 160);
+}
+
+.flex__lang__date {
+  display: flex;
+}
+
+.flex__lang__date .dot {
+  height: 15px;
+  width: 15px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.name__activity img {
+  color: white;
+  background: white;
+  height: 1.5rem;
+}
