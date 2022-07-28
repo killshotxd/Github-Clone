@@ -32,13 +32,15 @@ body {
   padding: 0.5rem;
 }
 
-.nav input {
+.nav input,
+.sidebar input {
   background: rgb(13, 17, 23);
   text-align: left;
   height: 1.5rem;
   border: none;
   border-radius: 5px 5px 5px 5px;
   width: 14rem;
+  color: white;
 }
 
 .nav a {
@@ -53,4 +55,99 @@ body {
 
 .nav a i {
   font-size: 1.5rem;
+}
+
+
+/* sidebar section */
+
+.sidebar{
+    height: 700px;
+    width: 265px;
+    position: relative; 
+    z-index: 1;
+    top: 5px;
+    left: 16px;
+    background-color;: rgb(22, 27, 34);
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 1px solid rgb(86, 86, 86);
+
+}
+
+
+
+.d-flex{
+    display: flex;
+    right: 5px;
+}
+
+.d-flex a{
+    padding: 6px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 25px;
+    background-color: #238636;
+    text-decoration: none;
+    color: rgb(192, 182, 182);e;
+    margin-left: 16px;
+    
+}
+
+.sidebar input{
+    margin-top: 16px;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+.repo-list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.repo-list li img{
+    border: 1px solid wheat;
+    border-radius: 50px;
+    height: 30px;
+}
+
+.repo-list li{
+    margin-bottom: 5px;
+}
+
+.repo-list a{
+    font-size: medium;
+    text-decoration: none;
+    color: rgb(188, 188, 188);
+    font-size: 13px;
+}
+
+
+
+.show-more{
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+.line{
+    height: 1px;
+    background-color: rgb(86, 86, 86);
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 255px;
+}
+
+.recent-act h4{
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.recent-act p{
+    color: rgb(160, 160, 160);
+    font-size: small;
 }
