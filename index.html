@@ -6,8 +6,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Github Clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!-- HEADER SECTION -->
+
+    <header>
+      <div class="nav">
+        <ul>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+          <input type="text" placeholder="Search or jump to.." />
+          <a href="#">Pull requests</a>
+          <a href="#">Issues</a>
+          <a href="#">Marketplace</a>
+          <a href="#">Explore</a>
+        </ul>
+        <div class="avatar">
+          <i class="fa-solid fa-bell"></i>
+          <i class="fa-solid fa-plus"><i class="fa-solid fa-caret-down"></i></i>
+          <!-- <img src="" alt="user" /> -->
+          <i class="fa-solid fa-user"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER SECTION END -->
+
+    <main>
+      <div class="three__col">
+        <!-- SideBar Section -->
+
+        <div class="sidebar">
+          <div class="sidebar__container__item">
+            <div class="d-flex">
+              <h4 style="color: white">
+                Recent Repositories
+                <a href="">New</a>
+              </h4>
+            </div>
+            <input
+              type="text"
+              name="search"
+              id="search"
+              placeholder="Find a repository..."
+            />
+
+            <ul class="repo-list">
+              <div class="center__img">
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/javascript30-Projects</a
+                  >
+                </li>
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/user</a
+                  >
+                </li>
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/CFC--assing-pyboot</a
+                  >
+                </li>
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/CFC--assing-pyboot</a
+                  >
+                </li>
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/CFC--assing-pyboot</a
+                  >
+                </li>
+                <li>
+                  <img src="/icons8-github.svg" alt="#" /><a href="#"
+                    >user/CFC--assing-pyboot</a
+                  >
+                </li>
+              </div>
+            </ul>
+
+            <a href="#" class="show-more">Show more</a>
+
+            <div class="line"></div>
+
+            <div class="recent-act">
+              <h4>Recent activity</h4>
+              <p>
+                When you take actions across GitHub, we’ll provide links to that
+                activity here.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SideBar Section End -->
+
+        <!-- Followers Activity Container -->
+
+        <div class="main__activity__container">
+          <div class="follow__foru">
+            <button type="button">Following</button>
+            <button type="button">For you</button>
+          </div>
+
+          <div class="line2"></div>
+
+          <div class="single__profile__container">
+            <div class="center__activity__container">
+              <div class="name__activity">
+                <img class="img" src="/icons8-github.svg" alt="user" />
+                <h3>sadabjr forked from killshotxd/repo</h3>
+                <p>yesterday</p>
+              </div>
+              <div class="info__container">
+                <h3 id="activity">Killshotxd clone</h3>
+                <p id="description">project made with html css js</p>
+
+                <div class="flex__lang__date">
+                  <p id="lang"><span class="dot"></span> HTML</p>
+                  <p id="update-date">updated july 26</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Activity END -->
+
+            <!-- Activity START -->
+
+            <div class="center__activity__container">
+              <div class="name__activity">
+                <img class="img" src="/icons8-github.svg" alt="user" />
+                <h3>sadabjr forked from killshotxd/repo</h3>
+                <p>yesterday</p>
+              </div>
+              <div class="info__container">
+                <h3 id="activity">Killshotxd clone</h3>
+                <p id="description">project made with html css js</p>
+
+                <div class="flex__lang__date">
+                  <p id="lang"><span class="dot"></span> HTML</p>
+                  <p id="update-date">updated july 26</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- right side git news section -->
+    <main>
+      <div class="news-section" >
+        <div class="letest-changes">
+          <h4>Latest changes</h4>
+          <ul>
+            <li>
+              <p>15 hours ago</p>
+              <a href="">GitHub Pages: Custom GitHub Actions Workflows (beta)</a>
+            </li>
+
+            <li>
+              <p>15 hours ago</p>
+              <a href="">GitHub Pages: Custom GitHub Actions Workflows (beta)</a>
+            </li>
+
+            <li>
+              <p>18 hours ago</p>
+              <a href="">Secret scanning: Admins now receive emails when contributors
+                bypass a push protection block</a>
+            </li>
+
+            <li>
+              <p>20 hours ago</p>
+              <a href=""> You can now fork a repo and copy only the default branch</a><br>
+              <a class="view-changelog">View changelog →</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Explore repositories -->
+        <div class="explore-repo">
+          <h4>Explore repositories</h4>
+
+          <div class="card">
+            <h5>FrancescoXX/free-Web3-resources</h5>
+            <p>A list of FREE resources to make Web3 accessible to everyone.</p>
+            <p id="lang"><span class="dot"></span> HTML</p>
+            <div class="line3"></div>
+          </div>
+
+          <div class="card">
+            <h5>endoplasmic/google-assistant</h5>
+            <p>A node.js implementation of the Google Assistant SDK</p>
+            <p id="lang"><span class="dot js-dot"></span> JavaScript</p>
+            <div class="line3"></div>
+          </div>
+
+          <div class="card">
+            <h5>chocolatey-community/chocolatey-package-requests</h5>
+            <p>Please submit your package requests as issues here</p>
+            <p id="lang"><span class="dot ts-dot"></span> TypeScript</p>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <script src="/script.js"></script>
   </body>
 </html>
+
+

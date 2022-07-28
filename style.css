@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(13, 17, 23);
+}
+.nav {
+  background: rgb(22, 27, 34);
+  height: 9vh;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  justify-content: space-between;
+}
+.avatar {
+  margin-right: 1rem;
+}
+
+.avatar i {
+  color: white;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.nav input,
+.sidebar input {
+  background: rgb(13, 17, 23);
+  text-align: left;
+  height: 1.5rem;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  width: 14rem;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+}
+
+.nav a:hover {
+  color: rgb(220, 209, 209);
+}
+
+.nav a i {
+  font-size: 1.5rem;
+}
+
+/* sidebar section */
+
+.sidebar {
+  height: 100vh;
+  width: 30vw;
+  position: relative;
+  z-index: 1;
+  top: 5px;
+  /* left: 16px; */
+  background: rgb(13, 17, 23);
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: 1px solid rgb(86, 86, 86);
+}
+
+.sidebar__container__item {
+  margin-left: 1rem;
+  padding: 1.5rem;
+}
+
+.d-flex {
+  display: flex;
+  right: 5px;
+}
+
+.d-flex a {
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 25px;
+  background-color: #238636;
+  text-decoration: none;
+  color: rgb(192, 182, 182);
+  margin-left: 16px;
+}
+
+.d-flex a:hover {
+  color: white;
+}
+
+.sidebar input {
+  margin-top: 16px;
+  border: none;
+  background: rgb(1, 4, 9);
+}
+
+.repo-list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.repo-list li img {
+  border: 1px solid wheat;
+  border-radius: 50px;
+  height: 30px;
+}
+
+.repo-list li {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.repo-list a {
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(188, 188, 188);
+  font-size: 13px;
+}
+
+.show-more {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+.line {
+  height: 1px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 255px;
+}
+
+.recent-act h4 {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.recent-act p {
+  color: rgb(160, 160, 160);
+  font-size: small;
+}
+
+.repo-list li img {
+  color: white;
+  background: white;
+  height: 1.5rem;
+}
+
+/* For Displaying three coloumns sidebar, activity and then github news */
+
+.main__activity__container {
+  height: 100vh;
+  width: 47vw;
+  background: rgb(1, 4, 9);
+}
+
+.three__col {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Activity container */
+
+.follow__foru {
+  display: flex;
+  margin-left: 1rem;
+  text-decoration: none;
+  margin-top: 3rem;
+}
+
+button {
+  background: rgb(1, 4, 9);
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: 10px;
+}
+
+button {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background: rgba(133, 133, 133, 0.305);
+}
+
+.line2 {
+  height: 1px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 1rem;
+  width: 30rem;
+  margin-left: 1rem;
+}
+
+.single__profile__container {
+  margin-top: 1rem;
+  height: 14rem;
+  margin-left: 2rem;
+}
+
+.center__activity__container {
+  color: white;
+}
+
+.name__activity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  font-size: 0.7rem;
+  font-weight: lighter;
+}
+
+.info__container {
+  display: grid;
+  background: rgb(13, 17, 23);
+  width: 33rem;
+  border-radius: 1rem;
+  height: 17vh;
+  border: 1px solid rgb(86, 86, 86);
+  gap: 0.5rem;
+}
+
+.info__container h3,
+p {
+  margin-left: 0.75rem;
+  font-size: 1rem;
+}
+
+.info__container p {
+  color: rgb(160, 160, 160);
+}
+
+.flex__lang__date {
+  display: flex;
+}
+
+.flex__lang__date .dot{
+  height: 15px;
+  width: 15px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.name__activity img {
+  color: white;
+  background: white;
+  height: 1.5rem;
+}
+
+/* right side news section */
+.news-section {
+  color: white;
+  height: 100vh;
+  width: 20vw;
+  background: rgb(1, 4, 9);
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 10vh;
+  padding-right: 2vw;
+}
+
+.news-section h4,
+.explore-repo h4{
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.letest-changes ul li a {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  font-size: 1.8vh;
+}
+
+.letest-changes ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.news-section p,
+.view-changelog {
+  text-decoration: none;
+  color: rgb(160, 160, 160);
+  font-size: small;
+  margin-bottom: 5px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+/* -- Explore repositories */
+.card h5:hover{
+  color: blue;
+  cursor: pointer;
+
+}
+
+
+.explore-repo .card .dot{
+  height: 10px;
+  width: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.explore-repo .card .js-dot{
+  background-color: rgb(255, 255, 115);
+}
+
+.explore-repo .card .ts-dot{
+  background-color: rgb(148, 148, 255);
+}
+
+
+.line3 {
+  height: 1px;
+  background-color: rgb(86, 86, 86);
+  margin-top: 5px;
+  margin-bottom: 30px;
+  width: 255px;
+}
