@@ -181,7 +181,7 @@ body {
   display: flex;
   margin-left: 1rem;
   text-decoration: none;
-  margin-top: 3rem;
+  /* margin-top: 3rem; */
 }
 
 button {
@@ -278,7 +278,7 @@ p {
   z-index: 10;
   position: absolute;
   right: 0;
-  /* top: 10vh; */
+  top: 4rem;
   padding-right: 2vw;
 }
 
